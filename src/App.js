@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import logo from './logo.svg';
+import logo from './the_moviedb.svg';
 import './App.css';
 
 import MoviesList from './component/MoviesList';
@@ -13,7 +13,7 @@ class App extends Component {
         <div className="App">
           <header className="App-header">
             <Link to="/">
-              <img src={logo} className="App-logo" alt="logo" />
+              <img src={logo} className="App-logo" alt="logo" width="120"/>
             </Link>
           </header>
           <Switch>
