@@ -1,0 +1,47 @@
+body {
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body:before {
+  content: '';
+  position: fixed;
+  background: rgba(255,255,255,0.2);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.movieInfo {
+  background: rgba(0, 0, 0, 0.6);
+  text-align: left;
+  max-width: 960px;
+  margin: 10rem auto 0;
+  display: flex;
+}
+
+.details {
+  padding: 0 20px 20px;
+  color: #fff;
+}
+
+.title {
+  font-size: 2.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.additional_details, .tagline {
+  font-family: Oswald,sans-serif;
+}
+.additional_details {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 10px 4px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+.meta-data {
+  display: block;
+  color: #00fc87;
+  font-size: 1.6em;
+  line-height: 1.1em;
+}

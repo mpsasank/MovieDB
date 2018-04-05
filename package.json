@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://moviedb.sasank.me",
   "dependencies": {
+    "numeral": "^2.0.6",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-overdrive": "0.0.9",
